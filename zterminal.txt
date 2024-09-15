@@ -1,0 +1,734 @@
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git branch -M main
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git remote add origin https://github.com/Mahindra8252/Youtube.git
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 562 bytes | 562.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mahindra8252/Youtube.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> npm i -D nodemon
+
+added 29 packages, and audited 30 packages in 17s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   package.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        .env
+        .env.sample
+        .gitignore
+        node_modules/
+        package-lock.json
+        src/
+        zterminal.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")      
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git add .
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/nodemon', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/nodemon.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/nodetouch', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/nodetouch.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/semver', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/semver.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/anymatch/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/anymatch/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/anymatch/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/anymatch/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/anymatch/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/balanced-match/.github/FUNDING.yml', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'node_modules/balanced-match/LICENSE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/balanced-match/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/balanced-match/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/balanced-match/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/binary-extensions/binary-extensions.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/binary-extensions/binary-extensions.json.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/binary-extensions/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/binary-extensions/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/binary-extensions/license', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/binary-extensions/package.json', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/binary-extensions/readme.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/brace-expansion/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/brace-expansion/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/brace-expansion/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/brace-expansion/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/lib/compile.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/lib/constants.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/lib/expand.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/lib/parse.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/lib/stringify.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/lib/utils.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/braces/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/chokidar/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/chokidar/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/chokidar/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/chokidar/lib/constants.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/chokidar/lib/fsevents-handler.js', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'node_modules/chokidar/lib/nodefs-handler.js', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/chokidar/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/chokidar/types/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/.travis.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/README.markdown', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/example/map.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/concat-map/test/map.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/src/browser.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/src/common.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/debug/src/node.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/fill-range/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/fill-range/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/fill-range/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/fill-range/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/glob-parent/CHANGELOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/glob-parent/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/glob-parent/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/glob-parent/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/glob-parent/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/has-flag/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/has-flag/license', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/has-flag/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/has-flag/readme.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ignore-by-default/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ignore-by-default/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ignore-by-default/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ignore-by-default/package.json', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/is-binary-path/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-binary-path/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-binary-path/license', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-binary-path/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-binary-path/readme.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-extglob/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-extglob/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-extglob/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-extglob/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-glob/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-glob/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-glob/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-glob/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-number/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-number/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-number/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/is-number/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/minimatch/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/minimatch/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/minimatch/minimatch.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/minimatch/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ms/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ms/license.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ms/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/ms/readme.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/.prettierrc.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/bin/nodemon.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/authors.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/config.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/help.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/logo.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/options.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/topics.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/usage.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/doc/cli/whoami.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/jsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/cli/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/cli/parse.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/config/command.js', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'node_modules/nodemon/lib/config/defaults.js', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/nodemon/lib/config/exec.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/config/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/config/load.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/help/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/monitor/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/monitor/match.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/monitor/run.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/monitor/signals.js', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/nodemon/lib/monitor/watch.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/nodemon.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/rules/add.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/rules/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/rules/parse.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/spawn.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/utils/bus.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/utils/clone.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/utils/colour.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/utils/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/utils/log.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/utils/merge.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/lib/version.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/nodemon/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/normalize-path/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/normalize-path/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/normalize-path/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/normalize-path/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/CHANGELOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/lib/constants.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/lib/parse.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/lib/picomatch.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/lib/scan.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/lib/utils.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/picomatch/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/.travis.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/lib/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/lib/tree.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/lib/utils.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/pstree.remy/tests/fixtures/index.js', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'node_modules/pstree.remy/tests/fixtures/out1', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'node_modules/pstree.remy/tests/fixtures/out2', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'node_modules/pstree.remy/tests/index.test.js', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'node_modules/readdirp/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/readdirp/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/readdirp/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/readdirp/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/readdirp/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/bin/semver.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/classes/comparator.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/classes/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/classes/range.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/classes/semver.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/clean.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/cmp.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/coerce.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/compare-build.js', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'node_modules/semver/functions/compare-loose.js', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'node_modules/semver/functions/compare.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/diff.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/eq.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/gt.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/gte.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/inc.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/lt.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/lte.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/major.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/minor.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/neq.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/parse.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/patch.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/prerelease.js', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/semver/functions/rcompare.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/rsort.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/satisfies.js', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'node_modules/semver/functions/sort.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/functions/valid.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/internal/constants.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/internal/debug.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/internal/identifiers.js', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/semver/internal/lrucache.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/internal/parse-options.js', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'node_modules/semver/internal/re.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/preload.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/range.bnf', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/gtr.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/intersects.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/ltr.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/max-satisfying.js', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'node_modules/semver/ranges/min-satisfying.js', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'node_modules/semver/ranges/min-version.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/outside.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/simplify.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/subset.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/semver/ranges/to-comparators.js', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'node_modules/semver/ranges/valid.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/LICENSE', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'node_modules/simple-update-notifier/README.md', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'node_modules/simple-update-notifier/build/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/build/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/package.json', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'node_modules/simple-update-notifier/src/borderedText.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/cache.spec.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/cache.ts', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'node_modules/simple-update-notifier/src/getDistVersion.spec.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/getDistVersion.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/hasNewVersion.spec.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/hasNewVersion.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/index.spec.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/index.ts', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'node_modules/simple-update-notifier/src/isNpmOrYarn.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/simple-update-notifier/src/types.ts', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'node_modules/supports-color/browser.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/supports-color/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/supports-color/license', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/supports-color/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/supports-color/readme.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/to-regex-range/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/to-regex-range/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/to-regex-range/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/to-regex-range/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/touch/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/touch/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/touch/bin/nodetouch.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/touch/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/touch/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/.github/workflows/release.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/.jscsrc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/.jshintrc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/.travis.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/example.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/lib/undefsafe.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undefsafe/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git commit -m "project setup"
+[main 7546b69] project setup
+ 277 files changed, 25621 insertions(+), 2 deletions(-)
+ create mode 100644 .env
+ create mode 100644 .env.sample
+ create mode 100644 .gitignore
+ create mode 100644 node_modules/.bin/nodemon
+ create mode 100644 node_modules/.bin/nodemon.cmd
+ create mode 100644 node_modules/.bin/nodemon.ps1
+ create mode 100644 node_modules/.bin/nodetouch
+ create mode 100644 node_modules/.bin/nodetouch.cmd
+ create mode 100644 node_modules/.bin/nodetouch.ps1
+ create mode 100644 node_modules/.bin/semver
+ create mode 100644 node_modules/.bin/semver.cmd
+ create mode 100644 node_modules/.bin/semver.ps1
+ create mode 100644 node_modules/.package-lock.json
+ create mode 100644 node_modules/anymatch/LICENSE
+ create mode 100644 node_modules/anymatch/README.md
+ create mode 100644 node_modules/anymatch/index.d.ts
+ create mode 100644 node_modules/anymatch/index.js
+ create mode 100644 node_modules/anymatch/package.json
+ create mode 100644 node_modules/balanced-match/.github/FUNDING.yml    
+ create mode 100644 node_modules/balanced-match/LICENSE.md
+ create mode 100644 node_modules/balanced-match/README.md
+ create mode 100644 node_modules/balanced-match/index.js
+ create mode 100644 node_modules/balanced-match/package.json
+ create mode 100644 node_modules/binary-extensions/binary-extensions.json
+ create mode 100644 node_modules/binary-extensions/binary-extensions.json.d.ts
+ create mode 100644 node_modules/binary-extensions/index.d.ts
+ create mode 100644 node_modules/binary-extensions/index.js
+ create mode 100644 node_modules/binary-extensions/license
+ create mode 100644 node_modules/binary-extensions/package.json        
+ create mode 100644 node_modules/binary-extensions/readme.md
+ create mode 100644 node_modules/brace-expansion/LICENSE
+ create mode 100644 node_modules/brace-expansion/README.md
+ create mode 100644 node_modules/brace-expansion/index.js
+ create mode 100644 node_modules/brace-expansion/package.json
+ create mode 100644 node_modules/braces/LICENSE
+ create mode 100644 node_modules/braces/README.md
+ create mode 100644 node_modules/braces/index.js
+ create mode 100644 node_modules/braces/lib/compile.js
+ create mode 100644 node_modules/braces/lib/constants.js
+ create mode 100644 node_modules/braces/lib/expand.js
+ create mode 100644 node_modules/braces/lib/parse.js
+ create mode 100644 node_modules/braces/lib/stringify.js
+ create mode 100644 node_modules/braces/lib/utils.js
+ create mode 100644 node_modules/braces/package.json
+ create mode 100644 node_modules/chokidar/LICENSE
+ create mode 100644 node_modules/chokidar/README.md
+ create mode 100644 node_modules/chokidar/index.js
+ create mode 100644 node_modules/chokidar/lib/constants.js
+ create mode 100644 node_modules/chokidar/lib/fsevents-handler.js      
+ create mode 100644 node_modules/chokidar/lib/nodefs-handler.js        
+ create mode 100644 node_modules/chokidar/package.json
+ create mode 100644 node_modules/chokidar/types/index.d.ts
+ create mode 100644 node_modules/concat-map/.travis.yml
+ create mode 100644 node_modules/concat-map/LICENSE
+ create mode 100644 node_modules/concat-map/README.markdown
+ create mode 100644 node_modules/concat-map/example/map.js
+ create mode 100644 node_modules/concat-map/index.js
+ create mode 100644 node_modules/concat-map/package.json
+ create mode 100644 node_modules/concat-map/test/map.js
+ create mode 100644 node_modules/debug/LICENSE
+ create mode 100644 node_modules/debug/README.md
+ create mode 100644 node_modules/debug/package.json
+ create mode 100644 node_modules/debug/src/browser.js
+ create mode 100644 node_modules/debug/src/common.js
+ create mode 100644 node_modules/debug/src/index.js
+ create mode 100644 node_modules/debug/src/node.js
+ create mode 100644 node_modules/fill-range/LICENSE
+ create mode 100644 node_modules/fill-range/README.md
+ create mode 100644 node_modules/fill-range/index.js
+ create mode 100644 node_modules/fill-range/package.json
+ create mode 100644 node_modules/glob-parent/CHANGELOG.md
+ create mode 100644 node_modules/glob-parent/LICENSE
+ create mode 100644 node_modules/glob-parent/README.md
+ create mode 100644 node_modules/glob-parent/index.js
+ create mode 100644 node_modules/glob-parent/package.json
+ create mode 100644 node_modules/has-flag/index.js
+ create mode 100644 node_modules/has-flag/license
+ create mode 100644 node_modules/has-flag/package.json
+ create mode 100644 node_modules/has-flag/readme.md
+ create mode 100644 node_modules/ignore-by-default/LICENSE
+ create mode 100644 node_modules/ignore-by-default/README.md
+ create mode 100644 node_modules/ignore-by-default/index.js
+ create mode 100644 node_modules/ignore-by-default/package.json        
+ create mode 100644 node_modules/is-binary-path/index.d.ts
+ create mode 100644 node_modules/is-binary-path/index.js
+ create mode 100644 node_modules/is-binary-path/license
+ create mode 100644 node_modules/is-binary-path/package.json
+ create mode 100644 node_modules/is-binary-path/readme.md
+ create mode 100644 node_modules/is-extglob/LICENSE
+ create mode 100644 node_modules/is-extglob/README.md
+ create mode 100644 node_modules/is-extglob/index.js
+ create mode 100644 node_modules/is-extglob/package.json
+ create mode 100644 node_modules/is-glob/LICENSE
+ create mode 100644 node_modules/is-glob/README.md
+ create mode 100644 node_modules/is-glob/index.js
+ create mode 100644 node_modules/is-glob/package.json
+ create mode 100644 node_modules/is-number/LICENSE
+ create mode 100644 node_modules/is-number/README.md
+ create mode 100644 node_modules/is-number/index.js
+ create mode 100644 node_modules/is-number/package.json
+ create mode 100644 node_modules/minimatch/LICENSE
+ create mode 100644 node_modules/minimatch/README.md
+ create mode 100644 node_modules/minimatch/minimatch.js
+ create mode 100644 node_modules/minimatch/package.json
+ create mode 100644 node_modules/ms/index.js
+ create mode 100644 node_modules/ms/license.md
+ create mode 100644 node_modules/ms/package.json
+ create mode 100644 node_modules/ms/readme.md
+ create mode 100644 node_modules/nodemon/.prettierrc.json
+ create mode 100644 node_modules/nodemon/LICENSE
+ create mode 100644 node_modules/nodemon/README.md
+ create mode 100644 node_modules/nodemon/bin/nodemon.js
+ create mode 100644 node_modules/nodemon/bin/windows-kill.exe
+ create mode 100644 node_modules/nodemon/doc/cli/authors.txt
+ create mode 100644 node_modules/nodemon/doc/cli/config.txt
+ create mode 100644 node_modules/nodemon/doc/cli/help.txt
+ create mode 100644 node_modules/nodemon/doc/cli/logo.txt
+ create mode 100644 node_modules/nodemon/doc/cli/options.txt
+ create mode 100644 node_modules/nodemon/doc/cli/topics.txt
+ create mode 100644 node_modules/nodemon/doc/cli/usage.txt
+ create mode 100644 node_modules/nodemon/doc/cli/whoami.txt
+ create mode 100644 node_modules/nodemon/index.d.ts
+ create mode 100644 node_modules/nodemon/jsconfig.json
+ create mode 100644 node_modules/nodemon/lib/cli/index.js
+ create mode 100644 node_modules/nodemon/lib/cli/parse.js
+ create mode 100644 node_modules/nodemon/lib/config/command.js
+ create mode 100644 node_modules/nodemon/lib/config/defaults.js        
+ create mode 100644 node_modules/nodemon/lib/config/exec.js
+ create mode 100644 node_modules/nodemon/lib/config/index.js
+ create mode 100644 node_modules/nodemon/lib/config/load.js
+ create mode 100644 node_modules/nodemon/lib/help/index.js
+ create mode 100644 node_modules/nodemon/lib/index.js
+ create mode 100644 node_modules/nodemon/lib/monitor/index.js
+ create mode 100644 node_modules/nodemon/lib/monitor/match.js
+ create mode 100644 node_modules/nodemon/lib/monitor/run.js
+ create mode 100644 node_modules/nodemon/lib/monitor/signals.js        
+ create mode 100644 node_modules/nodemon/lib/monitor/watch.js
+ create mode 100644 node_modules/nodemon/lib/nodemon.js
+ create mode 100644 node_modules/nodemon/lib/rules/add.js
+ create mode 100644 node_modules/nodemon/lib/rules/index.js
+ create mode 100644 node_modules/nodemon/lib/rules/parse.js
+ create mode 100644 node_modules/nodemon/lib/spawn.js
+ create mode 100644 node_modules/nodemon/lib/utils/bus.js
+ create mode 100644 node_modules/nodemon/lib/utils/clone.js
+ create mode 100644 node_modules/nodemon/lib/utils/colour.js
+ create mode 100644 node_modules/nodemon/lib/utils/index.js
+ create mode 100644 node_modules/nodemon/lib/utils/log.js
+ create mode 100644 node_modules/nodemon/lib/utils/merge.js
+ create mode 100644 node_modules/nodemon/lib/version.js
+ create mode 100644 node_modules/nodemon/package.json
+ create mode 100644 node_modules/normalize-path/LICENSE
+ create mode 100644 node_modules/normalize-path/README.md
+ create mode 100644 node_modules/normalize-path/index.js
+ create mode 100644 node_modules/normalize-path/package.json
+ create mode 100644 node_modules/picomatch/CHANGELOG.md
+ create mode 100644 node_modules/picomatch/LICENSE
+ create mode 100644 node_modules/picomatch/README.md
+ create mode 100644 node_modules/picomatch/index.js
+ create mode 100644 node_modules/picomatch/lib/constants.js
+ create mode 100644 node_modules/picomatch/lib/parse.js
+ create mode 100644 node_modules/picomatch/lib/picomatch.js
+ create mode 100644 node_modules/picomatch/lib/scan.js
+ create mode 100644 node_modules/picomatch/lib/utils.js
+ create mode 100644 node_modules/picomatch/package.json
+ create mode 100644 node_modules/pstree.remy/.travis.yml
+ create mode 100644 node_modules/pstree.remy/LICENSE
+ create mode 100644 node_modules/pstree.remy/README.md
+ create mode 100644 node_modules/pstree.remy/lib/index.js
+ create mode 100644 node_modules/pstree.remy/lib/tree.js
+ create mode 100644 node_modules/pstree.remy/lib/utils.js
+ create mode 100644 node_modules/pstree.remy/package.json
+ create mode 100644 node_modules/pstree.remy/tests/fixtures/index.js   
+ create mode 100644 node_modules/pstree.remy/tests/fixtures/out1       
+ create mode 100644 node_modules/pstree.remy/tests/fixtures/out2       
+ create mode 100644 node_modules/pstree.remy/tests/index.test.js       
+ create mode 100644 node_modules/readdirp/LICENSE
+ create mode 100644 node_modules/readdirp/README.md
+ create mode 100644 node_modules/readdirp/index.d.ts
+ create mode 100644 node_modules/readdirp/index.js
+ create mode 100644 node_modules/readdirp/package.json
+ create mode 100644 node_modules/semver/LICENSE
+ create mode 100644 node_modules/semver/README.md
+ create mode 100644 node_modules/semver/bin/semver.js
+ create mode 100644 node_modules/semver/classes/comparator.js
+ create mode 100644 node_modules/semver/classes/index.js
+ create mode 100644 node_modules/semver/classes/range.js
+ create mode 100644 node_modules/semver/classes/semver.js
+ create mode 100644 node_modules/semver/functions/clean.js
+ create mode 100644 node_modules/semver/functions/cmp.js
+ create mode 100644 node_modules/semver/functions/coerce.js
+ create mode 100644 node_modules/semver/functions/compare-build.js     
+ create mode 100644 node_modules/semver/functions/compare-loose.js     
+ create mode 100644 node_modules/semver/functions/compare.js
+ create mode 100644 node_modules/semver/functions/diff.js
+ create mode 100644 node_modules/semver/functions/eq.js
+ create mode 100644 node_modules/semver/functions/gt.js
+ create mode 100644 node_modules/semver/functions/gte.js
+ create mode 100644 node_modules/semver/functions/inc.js
+ create mode 100644 node_modules/semver/functions/lt.js
+ create mode 100644 node_modules/semver/functions/lte.js
+ create mode 100644 node_modules/semver/functions/major.js
+ create mode 100644 node_modules/semver/functions/minor.js
+ create mode 100644 node_modules/semver/functions/neq.js
+ create mode 100644 node_modules/semver/functions/parse.js
+ create mode 100644 node_modules/semver/functions/patch.js
+ create mode 100644 node_modules/semver/functions/prerelease.js        
+ create mode 100644 node_modules/semver/functions/rcompare.js
+ create mode 100644 node_modules/semver/functions/rsort.js
+ create mode 100644 node_modules/semver/functions/satisfies.js
+ create mode 100644 node_modules/semver/functions/sort.js
+ create mode 100644 node_modules/semver/functions/valid.js
+ create mode 100644 node_modules/semver/index.js
+ create mode 100644 node_modules/semver/internal/constants.js
+ create mode 100644 node_modules/semver/internal/debug.js
+ create mode 100644 node_modules/semver/internal/identifiers.js        
+ create mode 100644 node_modules/semver/internal/lrucache.js
+ create mode 100644 node_modules/semver/internal/parse-options.js      
+ create mode 100644 node_modules/semver/internal/re.js
+ create mode 100644 node_modules/semver/package.json
+ create mode 100644 node_modules/semver/preload.js
+ create mode 100644 node_modules/semver/range.bnf
+ create mode 100644 node_modules/semver/ranges/gtr.js
+ create mode 100644 node_modules/semver/ranges/intersects.js
+ create mode 100644 node_modules/semver/ranges/ltr.js
+ create mode 100644 node_modules/semver/ranges/max-satisfying.js       
+ create mode 100644 node_modules/semver/ranges/min-satisfying.js       
+ create mode 100644 node_modules/semver/ranges/min-version.js
+ create mode 100644 node_modules/semver/ranges/outside.js
+ create mode 100644 node_modules/semver/ranges/simplify.js
+ create mode 100644 node_modules/semver/ranges/subset.js
+ create mode 100644 node_modules/semver/ranges/to-comparators.js       
+ create mode 100644 node_modules/semver/ranges/valid.js
+ create mode 100644 node_modules/simple-update-notifier/LICENSE        
+ create mode 100644 node_modules/simple-update-notifier/README.md      
+ create mode 100644 node_modules/simple-update-notifier/build/index.d.ts
+ create mode 100644 node_modules/simple-update-notifier/build/index.js 
+ create mode 100644 node_modules/simple-update-notifier/package.json   
+ create mode 100644 node_modules/simple-update-notifier/src/borderedText.ts
+ create mode 100644 node_modules/simple-update-notifier/src/cache.spec.ts
+ create mode 100644 node_modules/simple-update-notifier/src/cache.ts   
+ create mode 100644 node_modules/simple-update-notifier/src/getDistVersion.spec.ts
+ create mode 100644 node_modules/simple-update-notifier/src/getDistVersion.ts
+ create mode 100644 node_modules/simple-update-notifier/src/hasNewVersion.spec.ts
+ create mode 100644 node_modules/simple-update-notifier/src/hasNewVersion.ts
+ create mode 100644 node_modules/simple-update-notifier/src/index.spec.ts
+ create mode 100644 node_modules/simple-update-notifier/src/index.ts   
+ create mode 100644 node_modules/simple-update-notifier/src/isNpmOrYarn.ts
+ create mode 100644 node_modules/simple-update-notifier/src/types.ts   
+ create mode 100644 node_modules/supports-color/browser.js
+ create mode 100644 node_modules/supports-color/index.js
+ create mode 100644 node_modules/supports-color/license
+ create mode 100644 node_modules/supports-color/package.json
+ create mode 100644 node_modules/supports-color/readme.md
+ create mode 100644 node_modules/to-regex-range/LICENSE
+ create mode 100644 node_modules/to-regex-range/README.md
+ create mode 100644 node_modules/to-regex-range/index.js
+ create mode 100644 node_modules/to-regex-range/package.json
+ create mode 100644 node_modules/touch/LICENSE
+ create mode 100644 node_modules/touch/README.md
+ create mode 100644 node_modules/touch/bin/nodetouch.js
+ create mode 100644 node_modules/touch/index.js
+ create mode 100644 node_modules/touch/package.json
+ create mode 100644 node_modules/undefsafe/.github/workflows/release.yml
+ create mode 100644 node_modules/undefsafe/.jscsrc
+ create mode 100644 node_modules/undefsafe/.jshintrc
+ create mode 100644 node_modules/undefsafe/.travis.yml
+ create mode 100644 node_modules/undefsafe/LICENSE
+ create mode 100644 node_modules/undefsafe/README.md
+ create mode 100644 node_modules/undefsafe/example.js
+ create mode 100644 node_modules/undefsafe/lib/undefsafe.js
+ create mode 100644 node_modules/undefsafe/package.json
+ create mode 100644 package-lock.json
+ create mode 100644 src/app.js
+ create mode 100644 src/constants.js
+ create mode 100644 src/index.js
+ create mode 100644 zterminal.txt
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> git push
+Enumerating objects: 335, done.
+Counting objects: 100% (335/335), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (318/318), done.
+Writing objects: 100% (333/333), 285.91 KiB | 4.69 MiB/s, done.
+Total 333 (delta 34), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (34/34), completed with 1 local object. 
+To https://github.com/Mahindra8252/Youtube.git
+   a8525b2..7546b69  main -> main
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube> cd src
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> ls
+
+
+    Directory: C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by     
+    chai and code\youtube\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-09-2024     02:29              0 app.js
+-a----        15-09-2024     02:30              0 constants.js
+-a----        15-09-2024     02:30              0 index.js
+
+
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> mkdir controllers db middlewares models routes utils
+mkdir : A positional parameter cannot be found that accepts argument 
+'db'.
+At line:1 char:1
++ mkdir controllers db middlewares models routes utils
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], Parameter  
+   BindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir        
+
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> mkdir -Path "controllers", "db", "middlewares", "models", "routes", "utils"
+
+
+    Directory: C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by     
+    chai and code\youtube\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15-09-2024     02:44                controllers
+d-----        15-09-2024     02:44                db
+d-----        15-09-2024     02:44                middlewares
+d-----        15-09-2024     02:44                models
+d-----        15-09-2024     02:44                routes
+d-----        15-09-2024     02:44                utils
+
+
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> npm i prettier
+
+added 1 package, and audited 31 packages in 9s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> npm i -D prettier
+npm warn idealTree Removing dependencies.prettier in favor of devDependencies.prettier
+
+up to date, audited 31 packages in 831ms
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ../.prettierignore
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../node_modules/.package-lock.json
+        modified:   ../package-lock.json
+        modified:   ../package.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        ../.prettierrc
+        ../node_modules/.bin/prettier
+        ../node_modules/.bin/prettier.cmd
+        ../node_modules/.bin/prettier.ps1
+        ../node_modules/prettier/
+
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> git add .
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> git commit -m "add .prettierrc"
+[main ff2b5a1] add .prettierrc
+ 1 file changed, 7 insertions(+)
+ create mode 100644 .prettierignore
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.   
+To https://github.com/Mahindra8252/Youtube.git
+   7546b69..ff2b5a1  main -> main
+PS C:\Users\Mahindra kumar\OneDrive\Desktop\Backend by chai and code\youtube\src>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+next leacture
+
+
+
